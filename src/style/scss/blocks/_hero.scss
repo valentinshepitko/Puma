@@ -1,0 +1,38 @@
+.hero {
+  padding: 0 0 105px;
+  background: rgb(238,85,20);
+  background: linear-gradient(90deg, rgba(238,85,20,0.2189250700280112) 0%, rgba(255,255,255,1) 100%);
+
+  &__content-holder{
+    max-width: 366px;
+  }
+
+  &__title{
+    font-size: 61px;
+    line-height: 74px;
+    font-family: 'Source Serif Pro', serif;
+    padding: 0 0 20px;
+  }
+
+  &__title-color{
+    color: #EE5514;
+  }
+
+  &__image-holder{
+    position: relative;
+  }
+
+  &__image{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: auto;
+  }
+
+  &__image-rectangle{
+    top: 10px;
+    right: 10px;
+  }
+}
+
+

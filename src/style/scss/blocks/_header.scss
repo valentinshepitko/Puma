@@ -1,0 +1,28 @@
+.header {
+  padding: 55px 0 55px;
+  background: rgb(238,85,20);
+  background: linear-gradient(90deg, rgba(238,85,20,0.2189250700280112) 0%, rgba(255,255,255,1) 100%);
+
+  &__nav-link {
+    color: #1A0A03;
+    padding-right: 40px;
+
+    &:hover {
+      transition: ease-in 0.3s;
+      color: #EE5514;
+    }
+  }
+
+  &__nav-link-active {
+    color: #EE5514;
+
+    &:hover {
+      transition: ease-in 0.3s;
+      color: #1A0A03;
+    }
+  }
+
+  .header__button-holder {
+    padding-left: 300px;
+  }
+}

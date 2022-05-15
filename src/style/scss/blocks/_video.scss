@@ -1,0 +1,22 @@
+.video{
+  padding: 100px 0 0;
+
+  &__content-holder{
+  max-width: 340px;
+  }
+
+  &__content-subtitle{
+    color: #EE5514;
+    font-family: Source Serif Pro, serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 0 0 10px;
+  }
+
+  &__content-title{
+    font-family: Source Serif Pro, serif;
+    font-size: 44px;
+    line-height: 57px;
+    padding: 0 0 20px;
+  }
+}
