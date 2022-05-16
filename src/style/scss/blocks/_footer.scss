@@ -1,0 +1,46 @@
+.footer{
+  background-color: #fef8f6;
+
+  &__holder{
+    padding-top: 107px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__logo{
+    padding-bottom: 23px;
+  }
+
+  &__address{
+    font-size: 18px;
+    padding-bottom: 20px;
+    max-width: 202px;
+  }
+
+  &__mail{
+    padding-bottom: 10px;
+    font-size: 18px
+  }
+
+  &__social-media{
+    display: flex;
+  }
+
+  &__social-media-link{
+    padding-right: 25px;
+  }
+
+  &__main-link{
+    padding-bottom: 31px;
+  }
+
+  &__link-item{
+    padding-bottom: 10px;
+    font-size: 18px;
+  }
+
+  &__contact-column{
+    max-width: 320px;
+  }
+}

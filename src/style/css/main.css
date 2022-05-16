@@ -384,3 +384,48 @@ img {
   background-color: #3dc8f8;
   color: white;
 }
+
+.footer {
+  background-color: #fef8f6;
+}
+.footer__holder {
+  padding-top: 107px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.footer__logo {
+  padding-bottom: 23px;
+}
+.footer__address {
+  font-size: 18px;
+  padding-bottom: 20px;
+  max-width: 202px;
+}
+.footer__mail {
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+.footer__social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.footer__social-media-link {
+  padding-right: 25px;
+}
+.footer__main-link {
+  padding-bottom: 31px;
+}
+.footer__link-item {
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+.footer__contact-column {
+  max-width: 320px;
+}
