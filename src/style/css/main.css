@@ -219,6 +219,9 @@ img {
   color: #EE5514;
 }
 
+.gallery {
+  padding-bottom: 140px;
+}
 .gallery__subtitle {
   color: #EE5514;
   font-family: Source Serif Pro, serif;
@@ -254,6 +257,17 @@ img {
   padding-right: 35px;
   color: #EE5514;
 }
+.gallery__column-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.gallery__column {
+  padding-right: 30px;
+  margin-left: -15px;
+}
 .gallery__img {
   padding-bottom: 30px;
 }
@@ -265,4 +279,108 @@ img {
 }
 .gallery__column-price-holder {
   padding-bottom: 30px;
+}
+
+.testimonials {
+  padding-bottom: 140px;
+}
+.testimonials__title {
+  font-family: Source Serif Pro, serif;
+  font-size: 44px;
+  line-height: 57px;
+  padding: 0 0 60px;
+  margin: 0 auto;
+  text-align: center;
+}
+.testimonials__holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.testimonials__content-holder {
+  max-width: 360px;
+}
+.testimonials__profile-pic {
+  padding-bottom: 70px;
+}
+.testimonials__caption {
+  font-weight: 600;
+  font-size: 22px;
+  font-family: Source Serif Pro, serif;
+  padding-bottom: 15px;
+}
+.testimonials__content {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 14px;
+  padding-bottom: 15px;
+}
+.testimonials__name {
+  font-weight: 500;
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+.testimonials__name__desc {
+  font-size: 14px;
+}
+
+.signup__holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.signup__background-holder {
+  background-color: rgba(129, 168, 218, 0.1);
+  padding-left: 130px;
+}
+.signup__content {
+  max-width: 525px;
+  padding-top: 63px;
+  padding-bottom: 63px;
+}
+.signup__heading {
+  font-family: Source Serif Pro, serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 31px;
+  padding-bottom: 20px;
+}
+.signup__desc {
+  font-size: 18px;
+  padding-bottom: 40px;
+}
+.signup__input {
+  width: 380px;
+  height: 63px;
+  border-radius: 5px 0 0 5px;
+  border-color: gray;
+}
+.signup__button {
+  padding: 15px 40px;
+  margin-left: -5px;
+  width: 137px;
+  height: 63px;
+  background-color: #EE5514;
+  color: white;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+.signup__button:hover {
+  -webkit-transition: ease-in 0.3s;
+  transition: ease-in 0.3s;
+  background-color: #3dc8f8;
+  color: white;
 }

@@ -1,0 +1,51 @@
+.testimonials{
+
+  padding-bottom: 140px;
+
+  &__title{
+    font-family: Source Serif Pro, serif;
+    font-size: 44px;
+    line-height: 57px;
+    padding: 0 0 60px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  &__holder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__content-holder{
+    max-width: 360px;
+  }
+
+  &__profile-pic{
+    padding-bottom: 70px;
+  }
+
+  &__caption{
+    font-weight: 600;
+    font-size: 22px;
+    font-family: Source Serif Pro, serif;
+    padding-bottom: 15px;
+  }
+
+  &__content{
+    font-style: italic;
+    font-weight: 500;
+    font-size: 14px;
+    padding-bottom: 15px;
+  }
+
+  &__name{
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 15px;
+
+  &__desc{
+    font-size: 14px;
+      }
+    }
+  }

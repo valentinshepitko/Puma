@@ -1,0 +1,64 @@
+.signup{
+
+  &__holder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__background-holder{
+    background-color: rgba(129, 168, 218, 0.1);
+    padding-left: 130px;
+  }
+
+  &__content-holder{
+
+
+  }
+
+  &__content{
+    max-width: 525px;
+    padding-top: 63px;
+    padding-bottom: 63px;
+  }
+
+  &__heading{
+    font-family: Source Serif Pro, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 31px;
+    padding-bottom: 20px;
+  }
+
+  &__desc{
+    font-size: 18px;
+    padding-bottom: 40px;
+  }
+
+  &__input{
+    width: 380px;
+    height: 63px;
+    border-radius: 5px 0 0 5px;
+    border-color: gray;
+  }
+
+  &__button{
+    padding: 15px 40px;
+    margin-left: -5px;
+    width: 137px;
+    height: 63px;
+    background-color: #EE5514;
+    color: white;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 2px;
+
+    &:hover {
+      transition: ease-in 0.3s;
+      background-color: #3dc8f8;
+      color: white;
+    }
+  }
+}
