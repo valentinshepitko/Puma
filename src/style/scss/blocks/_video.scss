@@ -1,8 +1,14 @@
 .video{
-  padding: 100px 0 0;
+  padding: 150px 0 0;
 
   &__content-holder{
-  max-width: 340px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__content{
+    max-width: 340px;
   }
 
   &__content-subtitle{

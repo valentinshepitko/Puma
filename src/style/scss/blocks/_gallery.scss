@@ -45,14 +45,10 @@
   &__column-holder{
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
   }
 
-  &__column{
-    padding-right: 30px;
-    margin-left: -15px;
-  }
-
-  &__img{
+    &__img{
   padding-bottom: 30px;
   }
 
