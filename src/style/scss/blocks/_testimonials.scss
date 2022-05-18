@@ -23,7 +23,27 @@
   }
 
   &__profile-pic{
-    padding-bottom: 70px;
+    padding-bottom: 45px;
+  }
+
+  blockquote {
+    font-size: 1.5em;
+    margin: 0;
+  }
+
+  blockquote:before {
+    content: open-quote;
+  }
+
+  blockquote:before,
+   {
+    display: inline-block;
+    vertical-align: bottom;
+    color: #EE5514;
+    opacity: 0.1;
+    font-size: 4em;
+    top: .2em;
+    position: relative;
   }
 
   &__caption{

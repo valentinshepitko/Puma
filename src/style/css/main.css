@@ -163,6 +163,20 @@ img {
   line-height: 57px;
   padding: 0 0 20px;
 }
+.video__play {
+  position: relative;
+}
+.video__play-button {
+  position: absolute;
+  z-index: 10;
+  top: 140px;
+  left: 195px;
+}
+.video__img {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+}
 
 .feature {
   padding: 145px;
@@ -315,7 +329,23 @@ img {
   margin-right: 115px;
 }
 .testimonials__profile-pic {
-  padding-bottom: 70px;
+  padding-bottom: 45px;
+}
+.testimonials blockquote {
+  font-size: 1.5em;
+  margin: 0;
+}
+.testimonials blockquote:before {
+  content: open-quote;
+}
+.testimonials blockquote:before {
+  display: inline-block;
+  vertical-align: bottom;
+  color: #EE5514;
+  opacity: 0.1;
+  font-size: 4em;
+  top: 0.2em;
+  position: relative;
 }
 .testimonials__caption {
   font-weight: 600;
@@ -354,7 +384,7 @@ img {
 }
 .signup__content {
   max-width: 525px;
-  padding-top: 63px;
+  padding-top: 80px;
   padding-bottom: 63px;
 }
 .signup__heading {

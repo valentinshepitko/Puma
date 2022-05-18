@@ -25,4 +25,21 @@
     line-height: 57px;
     padding: 0 0 20px;
   }
+
+  &__play{
+    position: relative;
+  }
+
+  &__play-button{
+    position: absolute;
+    z-index: 10;
+    top: 140px;
+    left: 195px;
+  }
+
+  &__img{
+    position: absolute;
+    right: 40px;
+    top: 40px;
+  }
 }
