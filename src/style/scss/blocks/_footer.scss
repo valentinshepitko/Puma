@@ -33,6 +33,12 @@
 
   &__main-link{
     padding-bottom: 31px;
+    font-size: 18px;
+    color: #1A0A03;
+  }
+
+  &__link-list{
+    padding-top: 40px;
   }
 
   &__link-item{
@@ -40,7 +46,34 @@
     font-size: 18px;
   }
 
+  &__link{
+    color: #1A0A03;
+  }
+
+  &__support-column{
+
+  }
+
   &__contact-column{
-    max-width: 320px;
+    padding-left: 90px;
+  }
+
+  &__text{
+    max-width: 240px;
+    padding-top: 31px;
+    padding-bottom: 38px;
+  }
+
+  &__line{
+    border-bottom: 1px solid #A6A4A4;
+    opacity: 0.2;
+    padding-top: 40px;
+  }
+
+  &__copyright{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }

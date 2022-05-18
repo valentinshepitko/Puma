@@ -429,11 +429,35 @@ img {
 }
 .footer__main-link {
   padding-bottom: 31px;
+  font-size: 18px;
+  color: #1A0A03;
+}
+.footer__link-list {
+  padding-top: 40px;
 }
 .footer__link-item {
   padding-bottom: 10px;
   font-size: 18px;
 }
+.footer__link {
+  color: #1A0A03;
+}
 .footer__contact-column {
-  max-width: 320px;
+  padding-left: 90px;
+}
+.footer__text {
+  max-width: 240px;
+  padding-top: 31px;
+  padding-bottom: 38px;
+}
+.footer__line {
+  border-bottom: 1px solid #A6A4A4;
+  opacity: 0.2;
+  padding-top: 40px;
+}
+.footer__copyright {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
