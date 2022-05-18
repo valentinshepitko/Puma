@@ -312,6 +312,7 @@ img {
 }
 .testimonials__content-holder {
   max-width: 360px;
+  margin-right: 115px;
 }
 .testimonials__profile-pic {
   padding-bottom: 70px;
@@ -343,13 +344,13 @@ img {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 .signup__background-holder {
   background-color: rgba(129, 168, 218, 0.1);
-  padding-left: 130px;
+  padding-left: 60px;
+  padding-right: 70px;
+  max-width: 657px;
+  border-radius: 5px;
 }
 .signup__content {
   max-width: 525px;
@@ -369,22 +370,21 @@ img {
 }
 .signup__input {
   width: 380px;
-  height: 63px;
-  border-radius: 5px 0 0 5px;
-  border-color: gray;
+  height: 52px;
+  padding-left: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: rgba(129, 168, 218, 0.01);
 }
 .signup__button {
-  padding: 15px 40px;
-  margin-left: -5px;
-  width: 137px;
-  height: 63px;
+  width: 96px;
+  height: 52px;
+  border-style: none;
   background-color: #EE5514;
   color: white;
-  border-radius: 0 10px 10px 0;
+  border-radius: 0 5px 5px 0;
+  margin-left: -5px;
   cursor: pointer;
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 2px;
 }
 .signup__button:hover {
   -webkit-transition: ease-in 0.3s;
@@ -443,7 +443,33 @@ img {
   color: #1A0A03;
 }
 .footer__contact-column {
-  padding-left: 90px;
+  padding-left: 50px;
+}
+.footer__input {
+  width: 210px;
+  height: 52px;
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  background-color: #fef8f6;
+  font-size: 14px;
+  color: #1A0A03;
+}
+.footer__button {
+  width: 96px;
+  height: 52px;
+  border-style: none;
+  background-color: #EE5514;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  margin-left: -5px;
+  cursor: pointer;
+}
+.footer__button:hover {
+  -webkit-transition: ease-in 0.3s;
+  transition: ease-in 0.3s;
+  background-color: #3dc8f8;
+  color: white;
 }
 .footer__text {
   max-width: 240px;

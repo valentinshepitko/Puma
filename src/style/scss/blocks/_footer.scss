@@ -50,12 +50,36 @@
     color: #1A0A03;
   }
 
-  &__support-column{
-
+  &__contact-column{
+    padding-left: 50px;
   }
 
-  &__contact-column{
-    padding-left: 90px;
+  &__input{
+    width: 210px;
+    height: 52px;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: #fef8f6;
+    font-size: 14px;
+    color: #1A0A03;
+  }
+
+  &__button{
+    width: 96px;
+    height: 52px;
+    border-style: none;
+    background-color: #EE5514;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    margin-left: -5px;
+    cursor: pointer;
+
+    &:hover {
+      transition: ease-in 0.3s;
+      background-color: #3dc8f8;
+      color: white;
+    }
   }
 
   &__text{
